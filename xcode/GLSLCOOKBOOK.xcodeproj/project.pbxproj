@@ -1,0 +1,2976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		07DAF7CD485641358AAE4821 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E74BBC4DC97A40CA82447429 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3CA8E2BDD5A64615A2B1DB82 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		6E67C69EEBB0455D95B7EC0E /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F19AEA3C558B43CBA8B9BC4C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0A30A2A852CB4247B580ABF3 /* CMake Rules */,
+			);
+			dependencies = (
+				FCE74312626F4DACB6A1EC94 /* PBXTargetDependency */,
+				A6E43A08611D471085828F5D /* PBXTargetDependency */,
+				13A379F2BD5E450FA6A7131A /* PBXTargetDependency */,
+				B5069A1250AF467CB9676EA0 /* PBXTargetDependency */,
+				62959A284BD14C129A4DC3AD /* PBXTargetDependency */,
+				4C6434DE109E47EDB42B3619 /* PBXTargetDependency */,
+				E92952F4B29541BFADB656D2 /* PBXTargetDependency */,
+				BBAFB5F37722486B9D86B424 /* PBXTargetDependency */,
+				082EEA148E4D4ACE95913979 /* PBXTargetDependency */,
+				A8B1BE4755DC4E05B65EA585 /* PBXTargetDependency */,
+				8572BB5D492942EBA2A161EF /* PBXTargetDependency */,
+				4618A7701584486FA8E5C852 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		044C9DFD4EA34741B112210A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbocube.cpp */ = {isa = PBXBuildFile; fileRef = 6B0085BBCA1C4514942D7E67 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbocube.cpp */; };
+		06EAADB1831B48CCBAF63900 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/sceneperfragment.cpp */ = {isa = PBXBuildFile; fileRef = 006F0B6C138C4728AB3B0250 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/sceneperfragment.cpp */; };
+		0B740A839EF14C4BB725393F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenetessteapotdepth.cpp */ = {isa = PBXBuildFile; fileRef = 40C223E000FB409B86E1D3ED /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenetessteapotdepth.cpp */; };
+		0F01AAAAB4494362B8318786 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenenightvision.cpp */ = {isa = PBXBuildFile; fileRef = 5BAB5D4A12854B7DA6B2CC96 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenenightvision.cpp */; };
+		10813E33C5D841B89689F7F2 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 25C177BCE5574E4BAC93F6CC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/CMakeLists.txt */; };
+		10C8B844712A4885A5010240 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/sceneprojtex.cpp */ = {isa = PBXBuildFile; fileRef = E56B8668B6E54F1C8F873BC3 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/sceneprojtex.cpp */; };
+		14B29804E79946D0BF870723 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenereflectcube.cpp */ = {isa = PBXBuildFile; fileRef = 83B217E4E769408B8D6A1463 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenereflectcube.cpp */; };
+		1601B9374C374166967FACE0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 455FE77CF6464B149F861AD3 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/CMakeLists.txt */; };
+		175BA75465EF4E69940EA8AC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenespot.cpp */ = {isa = PBXBuildFile; fileRef = E86D2EC4951F4077961BEAE6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenespot.cpp */; };
+		19B0FDD3A73842A5A31966E3 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/main.cpp */ = {isa = PBXBuildFile; fileRef = 41CC5DDBCF7F470E829A516C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/main.cpp */; };
+		19E379B6D1BD492FA88EEDFE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticlesfeedback.cpp */ = {isa = PBXBuildFile; fileRef = B676644193284446A677AA0F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticlesfeedback.cpp */; };
+		1AC0B20A03AC40F4A265C93A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/drawable.cpp */ = {isa = PBXBuildFile; fileRef = 7A60801903414337A07ED9CD /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/drawable.cpp */; };
+		1C49A6DE10954B6EB30E962B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/main.cpp */ = {isa = PBXBuildFile; fileRef = 2154BE9AE3AA4C43B55F896D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/main.cpp */; };
+		22AC3EDFB37C46759DD9D651 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenebezcurve.cpp */ = {isa = PBXBuildFile; fileRef = 83B2729AF4964A68BB83A102 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenebezcurve.cpp */; };
+		22D8D6B0FF86441CB51AC642 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/tgaio.cpp */ = {isa = PBXBuildFile; fileRef = 55B1568FDFBF4589B43FEDB9 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/tgaio.cpp */; };
+		32399DD698E84FEDADA46FB8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenedecay.cpp */ = {isa = PBXBuildFile; fileRef = 93DF7ECA98894B92BCDEBED1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenedecay.cpp */; };
+		3A65904951C14CE78866A5DC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneoit.cpp */ = {isa = PBXBuildFile; fileRef = CA008D41C42F478E9D1ACE34 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneoit.cpp */; };
+		3ADA410D4378430B96B59C96 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenewood.cpp */ = {isa = PBXBuildFile; fileRef = 3229110760F34B75BAB9FAE8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenewood.cpp */; };
+		3B5B3C1F9CAF4F899FF36270 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BD2F2A16CEE649E8A85AB68E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/CMakeLists.txt */; };
+		3BBF4BCCD5C048D88E6E2E5B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenefog.cpp */ = {isa = PBXBuildFile; fileRef = DA634A5FA81F45EF9726DC80 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenefog.cpp */; };
+		3C567759B28E4CDCB17A73F3 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/main.cpp */ = {isa = PBXBuildFile; fileRef = 8FC6D9896D2E4EAA819466E1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/main.cpp */; };
+		3CF9C574BE2443EF9CAB7DDF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboteapot.cpp */ = {isa = PBXBuildFile; fileRef = 1166B11146F04D8E9735A29D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboteapot.cpp */; };
+		41FC5F6EB00841259B522C64 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenesamplerobj.cpp */ = {isa = PBXBuildFile; fileRef = 85CE5F2D4BE34509837FE6D6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenesamplerobj.cpp */; };
+		450C1383092746F1910CB05D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenerendertotex.cpp */ = {isa = PBXBuildFile; fileRef = 33618C2142874184921A6CA0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenerendertotex.cpp */; };
+		4AE3E46BE5E44B0894E16899 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenefire.cpp */ = {isa = PBXBuildFile; fileRef = 3B8E0C8995024AEDB502EC3C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenefire.cpp */; };
+		4BE0A489FB7E48868ED3604E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E595D90ABD644957B5A0FA3C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/CMakeLists.txt */; };
+		4F88E3F56B8641B987BBA4F6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_uniformblock.cpp */ = {isa = PBXBuildFile; fileRef = 1D2C99B2A19C49208AAAFA28 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_uniformblock.cpp */; };
+		55075D07DF9443F4AF6DE66B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/sceneads.cpp */ = {isa = PBXBuildFile; fileRef = 53BCAA30BA9948F287B793D6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/sceneads.cpp */; };
+		562D6CCCF1E94C99940C4A5D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenewave.cpp */ = {isa = PBXBuildFile; fileRef = 00E48EEFC4F34E5493C7BC98 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenewave.cpp */; };
+		5A06D911DAC647288CE87028 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenediscard.cpp */ = {isa = PBXBuildFile; fileRef = E038D97F120F4B87A912515E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenediscard.cpp */; };
+		5B5DB850A7AA46AEAA98ADB7 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneao.cpp */ = {isa = PBXBuildFile; fileRef = 2D8B4C4631FC43AFBE9DD9C6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneao.cpp */; };
+		5C890EC57F264E4DA63E993D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenepaint.cpp */ = {isa = PBXBuildFile; fileRef = E7074C83CCDE49398F677352 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenepaint.cpp */; };
+		62F5A337622A4BFF9B59AB70 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_uniform.cpp */ = {isa = PBXBuildFile; fileRef = 901009674CC84A08BE614BEF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_uniform.cpp */; };
+		6433822B3478441A9081C0C5 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B952DA4C705043C2BBEC576F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/CMakeLists.txt */; };
+		65CADD1159F14ED1B8117BFE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenesilhouette.cpp */ = {isa = PBXBuildFile; fileRef = C24753D25AC74D84AB5821BC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenesilhouette.cpp */; };
+		6783C9F9F92C4689898B8405 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/scenejitter.cpp */ = {isa = PBXBuildFile; fileRef = BC9E4D74E74F4CEE868D76BF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/scenejitter.cpp */; };
+		685EA3756126448E951AB2FF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbosphere.cpp */ = {isa = PBXBuildFile; fileRef = B4F9543B9C3643EEBFE3478D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbosphere.cpp */; };
+		6A5845338A3843D9ACE46982 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/sceneshadewire.cpp */ = {isa = PBXBuildFile; fileRef = B157A919C24B4C0F83C055CA /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/sceneshadewire.cpp */; };
+		6B6878A578CA45BD9904DB2D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/main.cpp */ = {isa = PBXBuildFile; fileRef = 32FF83C36A1F46C19ACB699B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/main.cpp */; };
+		6D6CE9F82C384DC2A749B675 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneblur.cpp */ = {isa = PBXBuildFile; fileRef = 1F90816C1B224FF2ABB3E701 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneblur.cpp */; };
+		7073DA0C99944E5DA7C5DE7A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboteapotpatch.cpp */ = {isa = PBXBuildFile; fileRef = 25A42656F21C4300ACBDFD78 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboteapotpatch.cpp */; };
+		71600B65AD854FCD90C4BC5A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenequadtess.cpp */ = {isa = PBXBuildFile; fileRef = E88F611154F64D5FBEAAE7D9 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenequadtess.cpp */; };
+		72E99E250A824C878CE75F85 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/main.cpp */ = {isa = PBXBuildFile; fileRef = 6590899382AC4DF3AE783D36 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/main.cpp */; };
+		799D7649315844E597DCD271 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/main.cpp */ = {isa = PBXBuildFile; fileRef = 16B85475169946AA9E855338 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/main.cpp */; };
+		79EC45F46F444956AD366DB3 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenemultilight.cpp */ = {isa = PBXBuildFile; fileRef = 2AE660BC67B3434687FDA02A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenemultilight.cpp */; };
+		7EFE9ED20ADD472C851ACC32 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenetexture.cpp */ = {isa = PBXBuildFile; fileRef = 042DFC215A174279992819A8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenetexture.cpp */; };
+		7F6E4FF4FA7545969D54967A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/main.cpp */ = {isa = PBXBuildFile; fileRef = 859F67E28CCF47E1841A8A7F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/main.cpp */; };
+		80043D49CC044BE682279C28 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenerefractcube.cpp */ = {isa = PBXBuildFile; fileRef = E7C20DFFEA964DDA9D6D2D53 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenerefractcube.cpp */; };
+		83184A8B9FB143C8AFD0CE8D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenesmoke.cpp */ = {isa = PBXBuildFile; fileRef = D8613FA539734C0D9ECF1D38 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenesmoke.cpp */; };
+		8342241938214110A3DBD92E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenesubroutine.cpp */ = {isa = PBXBuildFile; fileRef = CC3685EBA07B471B80AE3C38 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenesubroutine.cpp */; };
+		8469CF6761C949A5B2DA749E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4923B9986F5E4E8DA1701DFB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/CMakeLists.txt */; };
+		856700F70F9D46E6A6B2CB53 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenesky.cpp */ = {isa = PBXBuildFile; fileRef = 0F46DE41C26A4DCBAFFEDD78 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenesky.cpp */; };
+		8600A62E79ED4F8B89988C3B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3F50A5E85C3444BE9562C4C6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/CMakeLists.txt */; };
+		865B8189CB1449228CB52FA0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0A8088AE087645E7B775E05B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/CMakeLists.txt */; };
+		879CE203089E4D94894DA7C1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenedirectional.cpp */ = {isa = PBXBuildFile; fileRef = 7942949D393D4F24AEFFED95 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenedirectional.cpp */; };
+		87B58EB6E97847B7A71DE211 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_debug.cpp */ = {isa = PBXBuildFile; fileRef = 82D1450A1D024F5F8A80F3B8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_debug.cpp */; };
+		8894B485ADDB45558E650CF6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/main.cpp */ = {isa = PBXBuildFile; fileRef = F65DA6124477426DBD12BFF5 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/main.cpp */; };
+		8A0CEA4063B545CE9053C2EE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbomesh.cpp */ = {isa = PBXBuildFile; fileRef = 89C4B52083CB4DB988D02AF1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbomesh.cpp */; };
+		8CAAA487A33E46A8ABF7F830 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenediffuse.cpp */ = {isa = PBXBuildFile; fileRef = 1E59C157192E4B189DBBD13B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenediffuse.cpp */; };
+		8CDFC3D0323546A38D8FCC53 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/bmpreader.cpp */ = {isa = PBXBuildFile; fileRef = 1FE2513868D247FABAF4A6C5 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/bmpreader.cpp */; };
+		91466191A3B14D50923AB004 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenemultitex.cpp */ = {isa = PBXBuildFile; fileRef = 66889BAACE0D40E6ABDD3E8F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenemultitex.cpp */; };
+		96F6B1AF120A47A4B1A2FFEF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/noisetex.cpp */ = {isa = PBXBuildFile; fileRef = A492C43D4EB34D8C98A4ED8D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/noisetex.cpp */; };
+		99FBC2565A9E4E53AF8B4C48 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbomeshadj.cpp */ = {isa = PBXBuildFile; fileRef = 0443C647213A4D4DAE3701F0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbomeshadj.cpp */; };
+		A000441FA18944A4A86DDB04 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbotorus.cpp */ = {isa = PBXBuildFile; fileRef = 1D76EE7FD3E74A54B3C72F97 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbotorus.cpp */; };
+		A1ACC8CBD4134895B03FDF36 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticlesinstanced.cpp */ = {isa = PBXBuildFile; fileRef = 98A5EC055F4C4228893A3E74 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticlesinstanced.cpp */; };
+		A26AE42E476C41F7ADEFC514 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenetonemap.cpp */ = {isa = PBXBuildFile; fileRef = 4B11ABF38AD443A7A484BC89 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenetonemap.cpp */; };
+		B04A614C449C4F3AA8DD9715 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/frustum.cpp */ = {isa = PBXBuildFile; fileRef = B73AEF1980134A42B70C205D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/frustum.cpp */; };
+		B20DE93E16AA4E088919C9F2 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenenoise.cpp */ = {isa = PBXBuildFile; fileRef = 7B585B5A949244D7A3FB418D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenenoise.cpp */; };
+		B25A1348B67F41D7962B2702 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/sceneparticles.cpp */ = {isa = PBXBuildFile; fileRef = 770C359C895D46BA81CCAE60 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/sceneparticles.cpp */; };
+		B4693E6B8556410FA539E136 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenetoon.cpp */ = {isa = PBXBuildFile; fileRef = 34C5E360EFFB4FD8BEFE200C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenetoon.cpp */; };
+		B4BDD9AEBC504A25829675A2 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/skybox.cpp */ = {isa = PBXBuildFile; fileRef = F935E8671D67453EBDE0E780 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/skybox.cpp */; };
+		B64DDC90FA1A41EEB50EE21C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/main.cpp */ = {isa = PBXBuildFile; fileRef = 20F8131CFFC94DCB8FE673D9 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/main.cpp */; };
+		BBC8641D02E6476A99670C0A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/sceneedge.cpp */ = {isa = PBXBuildFile; fileRef = 6B958C652F294631A2EBBB9C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/sceneedge.cpp */; };
+		BF4D7106A49C433EB5716B8A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic.cpp */ = {isa = PBXBuildFile; fileRef = 22BEEE3E28624953B9AF5FBA /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic.cpp */; };
+		BF655FB9E1D942DA8F5B8CB0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenetessteapot.cpp */ = {isa = PBXBuildFile; fileRef = 6D74ABDA60894EF8B3BF77A7 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenetessteapot.cpp */; };
+		C337C502A68B428CA5DD3593 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F1308858075B4C379B0AAC48 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/CMakeLists.txt */; };
+		C37E7478120C49C9923327FB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenealphatest.cpp */ = {isa = PBXBuildFile; fileRef = 9100F498D1C74E35B95FD2FF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenealphatest.cpp */; };
+		CAB1EFCB8DC54E15AFBE7A92 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_attrib.cpp */ = {isa = PBXBuildFile; fileRef = F0C8001FEB364F1CB887FCD0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_attrib.cpp */; };
+		CB941DB6B9734FB2A9C2C16C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenegamma.cpp */ = {isa = PBXBuildFile; fileRef = 5B7B21AED58A46359A5926A1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenegamma.cpp */; };
+		D0680FAED5A14525BD287D94 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneshadowmap.cpp */ = {isa = PBXBuildFile; fileRef = F1BC24BC9ACA4A15AF99A768 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneshadowmap.cpp */; };
+		D3671C35CC7D4EB39A373926 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneedge.cpp */ = {isa = PBXBuildFile; fileRef = 60D014363051460D8416D4BA /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneedge.cpp */; };
+		D3A66AA8D1C94B9EAA01F78F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/sceneflat.cpp */ = {isa = PBXBuildFile; fileRef = 10721DDBFC114FBC83E91CC4 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/sceneflat.cpp */; };
+		D5AAF37F0F5E4133AB2C66B1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenetwoside.cpp */ = {isa = PBXBuildFile; fileRef = EA0163029E4A46A8AF3E85FC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenetwoside.cpp */; };
+		D89C34D34C1D4BEAB86819D4 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/scenemandelbrot.cpp */ = {isa = PBXBuildFile; fileRef = BDC76FE92E244B83B31A436B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/scenemandelbrot.cpp */; };
+		DB7AFC06199848A384740AF6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/main.cpp */ = {isa = PBXBuildFile; fileRef = 671874C7E8D64D9099FBA55F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/main.cpp */; };
+		DDB4658D988C4056AD629C83 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/glslprogram.cpp */ = {isa = PBXBuildFile; fileRef = 1D8BCE821C544AE3A8F42A28 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/glslprogram.cpp */; };
+		E7E9B94B4A784F9FB0B1ABEC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticles.cpp */ = {isa = PBXBuildFile; fileRef = 1C14D630256743089B373BB5 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticles.cpp */; };
+		E7EE6C4EDA0F42908844BBD1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenemsaa.cpp */ = {isa = PBXBuildFile; fileRef = 34701B4E1EE641C1ACB6DCAF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenemsaa.cpp */; };
+		E9B7D010F0AE4888BF919E83 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/scenecloth.cpp */ = {isa = PBXBuildFile; fileRef = 80592C1650934964AA7C2D3C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/scenecloth.cpp */; };
+		EFF54766BFBD41188786F606 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/scenepcf.cpp */ = {isa = PBXBuildFile; fileRef = 093E3DD74731428DB814E295 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/scenepcf.cpp */; };
+		F32486B16804499B8670C025 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/glutils.cpp */ = {isa = PBXBuildFile; fileRef = 9F54642516F744A18361C3B6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/glutils.cpp */; };
+		F3E81DC79AAD46348FC088AB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenedeferred.cpp */ = {isa = PBXBuildFile; fileRef = 4B43D97ADA5943D49BFE44A8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenedeferred.cpp */; };
+		F58D2C538A3149D0A8CDF7AD /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 855BDC49BBF548D4A39D6682 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/CMakeLists.txt */; };
+		F8C91C5C38064BB8B7BC9766 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A7A820053C0E4BE48AF9D344 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/CMakeLists.txt */; };
+		FA8CE981ADFB42D78E797FDD /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenehdrbloom.cpp */ = {isa = PBXBuildFile; fileRef = B87AB39FFCBB4A3886FFF62E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenehdrbloom.cpp */; };
+		FB8A7B46E9BE4472BCBD9666 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboplane.cpp */ = {isa = PBXBuildFile; fileRef = 23F7753592594802B2D9CD84 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboplane.cpp */; };
+		FBE9A8DEE1BA4D6B91F7C9F9 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenenormalmap.cpp */ = {isa = PBXBuildFile; fileRef = ABABF3E3802C4A97BA572C5A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenenormalmap.cpp */; };
+		FC748810636C4F909CB743FB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenepointsprite.cpp */ = {isa = PBXBuildFile; fileRef = 004B03BE1CDB4E91AFD221BE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenepointsprite.cpp */; };
+		FDECD83F7CC948B0A1773BDE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneshadowvolume.cpp */ = {isa = PBXBuildFile; fileRef = 459E804D1B474D45A11EFBBE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneshadowvolume.cpp */; };
+		FF162F34D6A84417A0C39AD0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/gl_core_4_4.c */ = {isa = PBXBuildFile; fileRef = 79E1AA84EDA8484B9B5D42DB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/gl_core_4_4.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		418259AB058746A8A3F82747 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		736F5B26B8B14C69B5B36BEF = {
+			isa = PBXBuildStyle;
+		};
+		A07BA3ADD9274A749B9E5F98 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		DA487E6A64AE4E8AB5657CA2 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		DD7D986BAA8E4479989FBE4F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		04812BD270F04DA9A86B7884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3021DAACFCD04B46AC1263BE;
+			remoteInfo = ingredients;
+		};
+		06D082E52EFB4D0ABC3F9440 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3021DAACFCD04B46AC1263BE;
+			remoteInfo = ingredients;
+		};
+		0F009C5A4E1343EB8C8DC708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DAF7CD485641358AAE4821;
+			remoteInfo = ZERO_CHECK;
+		};
+		1F28BBE9AEAA41B89E4BC584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3021DAACFCD04B46AC1263BE;
+			remoteInfo = ingredients;
+		};
+		2792722722034477B0D8238C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DAF7CD485641358AAE4821;
+			remoteInfo = ZERO_CHECK;
+		};
+		2C50FC89850243AA9BBF8D5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CA8600004A442CAD0A6C98;
+			remoteInfo = chapter10;
+		};
+		34595B52FE0045CC8A384BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3021DAACFCD04B46AC1263BE;
+			remoteInfo = ingredients;
+		};
+		3A0E3D1CA78549F58C62197C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3021DAACFCD04B46AC1263BE;
+			remoteInfo = ingredients;
+		};
+		477A426562E84B45831A8774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DAF7CD485641358AAE4821;
+			remoteInfo = ZERO_CHECK;
+		};
+		5103CF6E63874CFA8ABCDD78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DAF7CD485641358AAE4821;
+			remoteInfo = ZERO_CHECK;
+		};
+		513C778AE5BD4C12997C2003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4AFCA7B92664448B10BAF5C;
+			remoteInfo = chapter01;
+		};
+		53504293CFD8499B910FD8B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11BBFD25EEF4DCF8994DA3F;
+			remoteInfo = chapter07;
+		};
+		6415C63148654CE28CF13123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3021DAACFCD04B46AC1263BE;
+			remoteInfo = ingredients;
+		};
+		800FD94C7DA24944AF95D4FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DAF7CD485641358AAE4821;
+			remoteInfo = ZERO_CHECK;
+		};
+		8A47A200409B4776B430A123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C54AC7D13B0741498F0E99B9;
+			remoteInfo = chapter04;
+		};
+		8C3821BB5C2641858D48B7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E62782326744709A9195079;
+			remoteInfo = chapter08;
+		};
+		8C964978F2D74573B1EFC299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABBDBB6DFEA4E71862264EA;
+			remoteInfo = chapter05;
+		};
+		94F24410122C4C03A2A35AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3021DAACFCD04B46AC1263BE;
+			remoteInfo = ingredients;
+		};
+		97385F6F70CA48A8AFBC8C2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3021DAACFCD04B46AC1263BE;
+			remoteInfo = ingredients;
+		};
+		A43AEA16434F4FA2941ED7F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3021DAACFCD04B46AC1263BE;
+			remoteInfo = ingredients;
+		};
+		ACE554FDBD1B4D30B6C7CE03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DAF7CD485641358AAE4821;
+			remoteInfo = ZERO_CHECK;
+		};
+		B31A31AA07B249E29CC34CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 634A292751A74B49B176F963;
+			remoteInfo = chapter09;
+		};
+		C8965AA8325D4647BFBB2D5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3021DAACFCD04B46AC1263BE;
+			remoteInfo = ingredients;
+		};
+		D35C88B53835420493285241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92E88016B33428F82FB690C;
+			remoteInfo = chapter03;
+		};
+		D96167370CF547C485269E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DAF7CD485641358AAE4821;
+			remoteInfo = ZERO_CHECK;
+		};
+		DBB438F5CC894A9CBB766789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DAF7CD485641358AAE4821;
+			remoteInfo = ZERO_CHECK;
+		};
+		E7E35302AD2B4702AF59CF90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DAF7CD485641358AAE4821;
+			remoteInfo = ZERO_CHECK;
+		};
+		E94EE967A76046B28A026249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AECC30A16A140E0A3CBBE55;
+			remoteInfo = chapter06;
+		};
+		F0054240948C4A719527A21B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DAF7CD485641358AAE4821;
+			remoteInfo = ZERO_CHECK;
+		};
+		F6E1DD964AE9428690B333F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23BC0630AB4C47CFA5E42344;
+			remoteInfo = chapter02;
+		};
+		F8A63A3722104515B279B8C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3021DAACFCD04B46AC1263BE;
+			remoteInfo = ingredients;
+		};
+		FCEF85EDE9BF4E959026910B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DAF7CD485641358AAE4821;
+			remoteInfo = ZERO_CHECK;
+		};
+		FFFE41271785432BB1540180 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D51C86BCC42B6B063B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DAF7CD485641358AAE4821;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004B03BE1CDB4E91AFD221BE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenepointsprite.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenepointsprite.cpp; path = chapter06/scenepointsprite.cpp; sourceTree = SOURCE_ROOT; };
+		006F0B6C138C4728AB3B0250 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/sceneperfragment.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneperfragment.cpp; path = chapter03/sceneperfragment.cpp; sourceTree = SOURCE_ROOT; };
+		00E48EEFC4F34E5493C7BC98 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenewave.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenewave.cpp; path = chapter09/scenewave.cpp; sourceTree = SOURCE_ROOT; };
+		042DFC215A174279992819A8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenetexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenetexture.cpp; path = chapter04/scenetexture.cpp; sourceTree = SOURCE_ROOT; };
+		0443C647213A4D4DAE3701F0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbomeshadj.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vbomeshadj.cpp; path = ingredients/vbomeshadj.cpp; sourceTree = SOURCE_ROOT; };
+		093E3DD74731428DB814E295 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/scenepcf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenepcf.cpp; path = chapter07/scenepcf.cpp; sourceTree = SOURCE_ROOT; };
+		0A8088AE087645E7B775E05B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = chapter07/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0F46DE41C26A4DCBAFFEDD78 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenesky.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenesky.cpp; path = chapter08/scenesky.cpp; sourceTree = SOURCE_ROOT; };
+		10721DDBFC114FBC83E91CC4 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/sceneflat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneflat.cpp; path = chapter02/sceneflat.cpp; sourceTree = SOURCE_ROOT; };
+		11549D145E044A36BB75457F /* chapter04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = chapter04; sourceTree = BUILT_PRODUCTS_DIR; };
+		1166B11146F04D8E9735A29D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboteapot.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vboteapot.cpp; path = ingredients/vboteapot.cpp; sourceTree = SOURCE_ROOT; };
+		16B85475169946AA9E855338 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = chapter07/main.cpp; sourceTree = SOURCE_ROOT; };
+		1C14D630256743089B373BB5 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneparticles.cpp; path = chapter09/sceneparticles.cpp; sourceTree = SOURCE_ROOT; };
+		1CB1E50D8F6045AEA9874C40 /* chapter01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = chapter01; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2C99B2A19C49208AAAFA28 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_uniformblock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenebasic_uniformblock.cpp; path = chapter01/scenebasic_uniformblock.cpp; sourceTree = SOURCE_ROOT; };
+		1D76EE7FD3E74A54B3C72F97 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbotorus.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vbotorus.cpp; path = ingredients/vbotorus.cpp; sourceTree = SOURCE_ROOT; };
+		1D8BCE821C544AE3A8F42A28 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/glslprogram.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = glslprogram.cpp; path = ingredients/glslprogram.cpp; sourceTree = SOURCE_ROOT; };
+		1E59C157192E4B189DBBD13B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenediffuse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenediffuse.cpp; path = chapter02/scenediffuse.cpp; sourceTree = SOURCE_ROOT; };
+		1F90816C1B224FF2ABB3E701 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneblur.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneblur.cpp; path = chapter05/sceneblur.cpp; sourceTree = SOURCE_ROOT; };
+		1FE2513868D247FABAF4A6C5 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/bmpreader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bmpreader.cpp; path = ingredients/bmpreader.cpp; sourceTree = SOURCE_ROOT; };
+		20F8131CFFC94DCB8FE673D9 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = chapter10/main.cpp; sourceTree = SOURCE_ROOT; };
+		2154BE9AE3AA4C43B55F896D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = chapter04/main.cpp; sourceTree = SOURCE_ROOT; };
+		22BEEE3E28624953B9AF5FBA /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenebasic.cpp; path = chapter01/scenebasic.cpp; sourceTree = SOURCE_ROOT; };
+		23F7753592594802B2D9CD84 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboplane.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vboplane.cpp; path = ingredients/vboplane.cpp; sourceTree = SOURCE_ROOT; };
+		25A42656F21C4300ACBDFD78 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboteapotpatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vboteapotpatch.cpp; path = ingredients/vboteapotpatch.cpp; sourceTree = SOURCE_ROOT; };
+		25C177BCE5574E4BAC93F6CC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = chapter06/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2AE660BC67B3434687FDA02A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenemultilight.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenemultilight.cpp; path = chapter03/scenemultilight.cpp; sourceTree = SOURCE_ROOT; };
+		2D8B4C4631FC43AFBE9DD9C6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneao.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneao.cpp; path = chapter07/sceneao.cpp; sourceTree = SOURCE_ROOT; };
+		3229110760F34B75BAB9FAE8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenewood.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenewood.cpp; path = chapter08/scenewood.cpp; sourceTree = SOURCE_ROOT; };
+		32FF83C36A1F46C19ACB699B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = chapter06/main.cpp; sourceTree = SOURCE_ROOT; };
+		33618C2142874184921A6CA0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenerendertotex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenerendertotex.cpp; path = chapter04/scenerendertotex.cpp; sourceTree = SOURCE_ROOT; };
+		34701B4E1EE641C1ACB6DCAF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenemsaa.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenemsaa.cpp; path = chapter05/scenemsaa.cpp; sourceTree = SOURCE_ROOT; };
+		34C5E360EFFB4FD8BEFE200C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenetoon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenetoon.cpp; path = chapter03/scenetoon.cpp; sourceTree = SOURCE_ROOT; };
+		3B8E0C8995024AEDB502EC3C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenefire.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenefire.cpp; path = chapter09/scenefire.cpp; sourceTree = SOURCE_ROOT; };
+		3F50A5E85C3444BE9562C4C6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = chapter02/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		40C223E000FB409B86E1D3ED /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenetessteapotdepth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenetessteapotdepth.cpp; path = chapter06/scenetessteapotdepth.cpp; sourceTree = SOURCE_ROOT; };
+		41CC5DDBCF7F470E829A516C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = chapter05/main.cpp; sourceTree = SOURCE_ROOT; };
+		455FE77CF6464B149F861AD3 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = chapter09/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		459E804D1B474D45A11EFBBE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneshadowvolume.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneshadowvolume.cpp; path = chapter07/sceneshadowvolume.cpp; sourceTree = SOURCE_ROOT; };
+		4923B9986F5E4E8DA1701DFB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = chapter01/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4B11ABF38AD443A7A484BC89 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenetonemap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenetonemap.cpp; path = chapter05/scenetonemap.cpp; sourceTree = SOURCE_ROOT; };
+		4B43D97ADA5943D49BFE44A8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenedeferred.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenedeferred.cpp; path = chapter05/scenedeferred.cpp; sourceTree = SOURCE_ROOT; };
+		51FDF8677F5E4B5FBA4D78F0 /* chapter09 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = chapter09; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BCAA30BA9948F287B793D6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/sceneads.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneads.cpp; path = chapter02/sceneads.cpp; sourceTree = SOURCE_ROOT; };
+		556D733325834AE7BAB5F879 /* chapter10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = chapter10; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B1568FDFBF4589B43FEDB9 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/tgaio.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tgaio.cpp; path = ingredients/tgaio.cpp; sourceTree = SOURCE_ROOT; };
+		569C8F17399D4642AA61BC63 /* chapter08 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = chapter08; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7B21AED58A46359A5926A1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenegamma.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenegamma.cpp; path = chapter05/scenegamma.cpp; sourceTree = SOURCE_ROOT; };
+		5B9D4D4F772948E892B77A16 /* ingredients */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libingredients.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAB5D4A12854B7DA6B2CC96 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenenightvision.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenenightvision.cpp; path = chapter08/scenenightvision.cpp; sourceTree = SOURCE_ROOT; };
+		60D014363051460D8416D4BA /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneedge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneedge.cpp; path = chapter05/sceneedge.cpp; sourceTree = SOURCE_ROOT; };
+		6590899382AC4DF3AE783D36 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = chapter01/main.cpp; sourceTree = SOURCE_ROOT; };
+		66889BAACE0D40E6ABDD3E8F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenemultitex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenemultitex.cpp; path = chapter04/scenemultitex.cpp; sourceTree = SOURCE_ROOT; };
+		671874C7E8D64D9099FBA55F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = chapter08/main.cpp; sourceTree = SOURCE_ROOT; };
+		6B0085BBCA1C4514942D7E67 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbocube.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vbocube.cpp; path = ingredients/vbocube.cpp; sourceTree = SOURCE_ROOT; };
+		6B958C652F294631A2EBBB9C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/sceneedge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneedge.cpp; path = chapter10/sceneedge.cpp; sourceTree = SOURCE_ROOT; };
+		6D74ABDA60894EF8B3BF77A7 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenetessteapot.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenetessteapot.cpp; path = chapter06/scenetessteapot.cpp; sourceTree = SOURCE_ROOT; };
+		6FBBDC220CFE47EA8D73F5AB /* chapter07 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = chapter07; sourceTree = BUILT_PRODUCTS_DIR; };
+		770C359C895D46BA81CCAE60 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/sceneparticles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneparticles.cpp; path = chapter10/sceneparticles.cpp; sourceTree = SOURCE_ROOT; };
+		7942949D393D4F24AEFFED95 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenedirectional.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenedirectional.cpp; path = chapter03/scenedirectional.cpp; sourceTree = SOURCE_ROOT; };
+		79E1AA84EDA8484B9B5D42DB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/gl_core_4_4.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gl_core_4_4.c; path = ingredients/gl_core_4_4.c; sourceTree = SOURCE_ROOT; };
+		7A60801903414337A07ED9CD /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/drawable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = drawable.cpp; path = ingredients/drawable.cpp; sourceTree = SOURCE_ROOT; };
+		7B585B5A949244D7A3FB418D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenenoise.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenenoise.cpp; path = chapter08/scenenoise.cpp; sourceTree = SOURCE_ROOT; };
+		80592C1650934964AA7C2D3C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/scenecloth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenecloth.cpp; path = chapter10/scenecloth.cpp; sourceTree = SOURCE_ROOT; };
+		82D1450A1D024F5F8A80F3B8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_debug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenebasic_debug.cpp; path = chapter01/scenebasic_debug.cpp; sourceTree = SOURCE_ROOT; };
+		83B217E4E769408B8D6A1463 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenereflectcube.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenereflectcube.cpp; path = chapter04/scenereflectcube.cpp; sourceTree = SOURCE_ROOT; };
+		83B2729AF4964A68BB83A102 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenebezcurve.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenebezcurve.cpp; path = chapter06/scenebezcurve.cpp; sourceTree = SOURCE_ROOT; };
+		855BDC49BBF548D4A39D6682 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = chapter10/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		859F67E28CCF47E1841A8A7F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = chapter03/main.cpp; sourceTree = SOURCE_ROOT; };
+		85CE5F2D4BE34509837FE6D6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenesamplerobj.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenesamplerobj.cpp; path = chapter04/scenesamplerobj.cpp; sourceTree = SOURCE_ROOT; };
+		89C4B52083CB4DB988D02AF1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbomesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vbomesh.cpp; path = ingredients/vbomesh.cpp; sourceTree = SOURCE_ROOT; };
+		8FC6D9896D2E4EAA819466E1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = chapter09/main.cpp; sourceTree = SOURCE_ROOT; };
+		901009674CC84A08BE614BEF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_uniform.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenebasic_uniform.cpp; path = chapter01/scenebasic_uniform.cpp; sourceTree = SOURCE_ROOT; };
+		9100F498D1C74E35B95FD2FF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenealphatest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenealphatest.cpp; path = chapter04/scenealphatest.cpp; sourceTree = SOURCE_ROOT; };
+		93DF7ECA98894B92BCDEBED1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenedecay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenedecay.cpp; path = chapter08/scenedecay.cpp; sourceTree = SOURCE_ROOT; };
+		98A5EC055F4C4228893A3E74 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticlesinstanced.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneparticlesinstanced.cpp; path = chapter09/sceneparticlesinstanced.cpp; sourceTree = SOURCE_ROOT; };
+		9D6139F3BE754157B2A81BDF /* chapter03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = chapter03; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F54642516F744A18361C3B6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/glutils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = glutils.cpp; path = ingredients/glutils.cpp; sourceTree = SOURCE_ROOT; };
+		A492C43D4EB34D8C98A4ED8D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/noisetex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = noisetex.cpp; path = chapter08/noisetex.cpp; sourceTree = SOURCE_ROOT; };
+		A7A820053C0E4BE48AF9D344 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = chapter04/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ABABF3E3802C4A97BA572C5A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenenormalmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenenormalmap.cpp; path = chapter04/scenenormalmap.cpp; sourceTree = SOURCE_ROOT; };
+		B157A919C24B4C0F83C055CA /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/sceneshadewire.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneshadewire.cpp; path = chapter06/sceneshadewire.cpp; sourceTree = SOURCE_ROOT; };
+		B3E5AECE0EE6405CA956AF03 /* chapter06 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = chapter06; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F9543B9C3643EEBFE3478D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbosphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vbosphere.cpp; path = ingredients/vbosphere.cpp; sourceTree = SOURCE_ROOT; };
+		B676644193284446A677AA0F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticlesfeedback.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneparticlesfeedback.cpp; path = chapter09/sceneparticlesfeedback.cpp; sourceTree = SOURCE_ROOT; };
+		B73AEF1980134A42B70C205D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/frustum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = frustum.cpp; path = chapter07/frustum.cpp; sourceTree = SOURCE_ROOT; };
+		B87AB39FFCBB4A3886FFF62E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenehdrbloom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenehdrbloom.cpp; path = chapter05/scenehdrbloom.cpp; sourceTree = SOURCE_ROOT; };
+		B952DA4C705043C2BBEC576F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = chapter03/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BBCC3E2CB54C4372979453DB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BC9E4D74E74F4CEE868D76BF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/scenejitter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenejitter.cpp; path = chapter07/scenejitter.cpp; sourceTree = SOURCE_ROOT; };
+		BD2F2A16CEE649E8A85AB68E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ingredients/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BDC76FE92E244B83B31A436B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/scenemandelbrot.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenemandelbrot.cpp; path = chapter10/scenemandelbrot.cpp; sourceTree = SOURCE_ROOT; };
+		C24753D25AC74D84AB5821BC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenesilhouette.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenesilhouette.cpp; path = chapter06/scenesilhouette.cpp; sourceTree = SOURCE_ROOT; };
+		C2FDCF90EB974BAA9D9582A3 /* chapter02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = chapter02; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA008D41C42F478E9D1ACE34 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneoit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneoit.cpp; path = chapter05/sceneoit.cpp; sourceTree = SOURCE_ROOT; };
+		CC3685EBA07B471B80AE3C38 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenesubroutine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenesubroutine.cpp; path = chapter02/scenesubroutine.cpp; sourceTree = SOURCE_ROOT; };
+		CFE77FFC061443BCAE1E614A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D8613FA539734C0D9ECF1D38 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenesmoke.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenesmoke.cpp; path = chapter09/scenesmoke.cpp; sourceTree = SOURCE_ROOT; };
+		DA634A5FA81F45EF9726DC80 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenefog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenefog.cpp; path = chapter03/scenefog.cpp; sourceTree = SOURCE_ROOT; };
+		DE5A7BCCBCF548EC923D6743 /* chapter05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = chapter05; sourceTree = BUILT_PRODUCTS_DIR; };
+		E038D97F120F4B87A912515E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenediscard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenediscard.cpp; path = chapter02/scenediscard.cpp; sourceTree = SOURCE_ROOT; };
+		E56B8668B6E54F1C8F873BC3 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/sceneprojtex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneprojtex.cpp; path = chapter04/sceneprojtex.cpp; sourceTree = SOURCE_ROOT; };
+		E595D90ABD644957B5A0FA3C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = chapter05/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E7074C83CCDE49398F677352 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenepaint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenepaint.cpp; path = chapter08/scenepaint.cpp; sourceTree = SOURCE_ROOT; };
+		E7C20DFFEA964DDA9D6D2D53 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenerefractcube.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenerefractcube.cpp; path = chapter04/scenerefractcube.cpp; sourceTree = SOURCE_ROOT; };
+		E86D2EC4951F4077961BEAE6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenespot.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenespot.cpp; path = chapter03/scenespot.cpp; sourceTree = SOURCE_ROOT; };
+		E88F611154F64D5FBEAAE7D9 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenequadtess.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenequadtess.cpp; path = chapter06/scenequadtess.cpp; sourceTree = SOURCE_ROOT; };
+		EA0163029E4A46A8AF3E85FC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenetwoside.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenetwoside.cpp; path = chapter02/scenetwoside.cpp; sourceTree = SOURCE_ROOT; };
+		F0C8001FEB364F1CB887FCD0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_attrib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scenebasic_attrib.cpp; path = chapter01/scenebasic_attrib.cpp; sourceTree = SOURCE_ROOT; };
+		F1308858075B4C379B0AAC48 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = chapter08/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F1BC24BC9ACA4A15AF99A768 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneshadowmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneshadowmap.cpp; path = chapter07/sceneshadowmap.cpp; sourceTree = SOURCE_ROOT; };
+		F65DA6124477426DBD12BFF5 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = chapter02/main.cpp; sourceTree = SOURCE_ROOT; };
+		F935E8671D67453EBDE0E780 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/skybox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = skybox.cpp; path = chapter04/skybox.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		006BCD1E2CD940DD8DDDE765 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				32FF83C36A1F46C19ACB699B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/main.cpp */,
+				83B2729AF4964A68BB83A102 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenebezcurve.cpp */,
+				004B03BE1CDB4E91AFD221BE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenepointsprite.cpp */,
+				E88F611154F64D5FBEAAE7D9 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenequadtess.cpp */,
+				B157A919C24B4C0F83C055CA /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/sceneshadewire.cpp */,
+				C24753D25AC74D84AB5821BC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenesilhouette.cpp */,
+				6D74ABDA60894EF8B3BF77A7 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenetessteapot.cpp */,
+				40C223E000FB409B86E1D3ED /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenetessteapotdepth.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		078246154B3244FFB9D78072 /* chapter01 */ = {
+			isa = PBXGroup;
+			children = (
+				B0A5F564329548C3A2741B5D /* Source Files */,
+				4923B9986F5E4E8DA1701DFB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/CMakeLists.txt */,
+			);
+			name = chapter01;
+			sourceTree = "<group>";
+		};
+		08EAD499C8C740A0AFD5783C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				20F8131CFFC94DCB8FE673D9 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/main.cpp */,
+				80592C1650934964AA7C2D3C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/scenecloth.cpp */,
+				6B958C652F294631A2EBBB9C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/sceneedge.cpp */,
+				BDC76FE92E244B83B31A436B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/scenemandelbrot.cpp */,
+				770C359C895D46BA81CCAE60 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/sceneparticles.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1812C11AD19E422D8D684860 /* chapter08 */ = {
+			isa = PBXGroup;
+			children = (
+				D1F49935091E49F5B259ABE5 /* Source Files */,
+				F1308858075B4C379B0AAC48 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/CMakeLists.txt */,
+			);
+			name = chapter08;
+			sourceTree = "<group>";
+		};
+		19A8BE76C7784479B41C6320 /* chapter10 */ = {
+			isa = PBXGroup;
+			children = (
+				08EAD499C8C740A0AFD5783C /* Source Files */,
+				855BDC49BBF548D4A39D6682 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/CMakeLists.txt */,
+			);
+			name = chapter10;
+			sourceTree = "<group>";
+		};
+		26FC6CB658A94D52A67F39F6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3BDFB996970E4188ADDB3B9E /* chapter05 */ = {
+			isa = PBXGroup;
+			children = (
+				6264EF62E606425D920BE767 /* Source Files */,
+				E595D90ABD644957B5A0FA3C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/CMakeLists.txt */,
+			);
+			name = chapter05;
+			sourceTree = "<group>";
+		};
+		507F1B424C5E4AE5951755CB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FE2513868D247FABAF4A6C5 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/bmpreader.cpp */,
+				7A60801903414337A07ED9CD /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/drawable.cpp */,
+				79E1AA84EDA8484B9B5D42DB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/gl_core_4_4.c */,
+				1D8BCE821C544AE3A8F42A28 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/glslprogram.cpp */,
+				9F54642516F744A18361C3B6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/glutils.cpp */,
+				55B1568FDFBF4589B43FEDB9 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/tgaio.cpp */,
+				6B0085BBCA1C4514942D7E67 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbocube.cpp */,
+				89C4B52083CB4DB988D02AF1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbomesh.cpp */,
+				0443C647213A4D4DAE3701F0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbomeshadj.cpp */,
+				23F7753592594802B2D9CD84 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboplane.cpp */,
+				B4F9543B9C3643EEBFE3478D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbosphere.cpp */,
+				1166B11146F04D8E9735A29D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboteapot.cpp */,
+				25A42656F21C4300ACBDFD78 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboteapotpatch.cpp */,
+				1D76EE7FD3E74A54B3C72F97 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbotorus.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		534E34CAF8764FD1B5F15B55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B9D4D4F772948E892B77A16 /* ingredients */,
+				1CB1E50D8F6045AEA9874C40 /* chapter01 */,
+				C2FDCF90EB974BAA9D9582A3 /* chapter02 */,
+				9D6139F3BE754157B2A81BDF /* chapter03 */,
+				11549D145E044A36BB75457F /* chapter04 */,
+				DE5A7BCCBCF548EC923D6743 /* chapter05 */,
+				B3E5AECE0EE6405CA956AF03 /* chapter06 */,
+				6FBBDC220CFE47EA8D73F5AB /* chapter07 */,
+				569C8F17399D4642AA61BC63 /* chapter08 */,
+				51FDF8677F5E4B5FBA4D78F0 /* chapter09 */,
+				556D733325834AE7BAB5F879 /* chapter10 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6264EF62E606425D920BE767 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				41CC5DDBCF7F470E829A516C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/main.cpp */,
+				1F90816C1B224FF2ABB3E701 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneblur.cpp */,
+				4B43D97ADA5943D49BFE44A8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenedeferred.cpp */,
+				60D014363051460D8416D4BA /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneedge.cpp */,
+				5B7B21AED58A46359A5926A1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenegamma.cpp */,
+				B87AB39FFCBB4A3886FFF62E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenehdrbloom.cpp */,
+				34701B4E1EE641C1ACB6DCAF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenemsaa.cpp */,
+				CA008D41C42F478E9D1ACE34 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneoit.cpp */,
+				4B11ABF38AD443A7A484BC89 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenetonemap.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		646427D193BC4C508EEADC2F /* chapter03 */ = {
+			isa = PBXGroup;
+			children = (
+				E37C2733C4D74A358AD832A0 /* Source Files */,
+				B952DA4C705043C2BBEC576F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/CMakeLists.txt */,
+			);
+			name = chapter03;
+			sourceTree = "<group>";
+		};
+		69116A4BA9D14733B20BB124 /* chapter09 */ = {
+			isa = PBXGroup;
+			children = (
+				ADB8FBB319944F7886B2DE2B /* Source Files */,
+				455FE77CF6464B149F861AD3 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/CMakeLists.txt */,
+			);
+			name = chapter09;
+			sourceTree = "<group>";
+		};
+		78FA5722D572403C9FC8E7FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		795DD5A0AFB9495BB73DC6D4 /* chapter02 */ = {
+			isa = PBXGroup;
+			children = (
+				F539B02ADA2E4F3596D4C177 /* Source Files */,
+				3F50A5E85C3444BE9562C4C6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/CMakeLists.txt */,
+			);
+			name = chapter02;
+			sourceTree = "<group>";
+		};
+		8E33E19739734E13BE00BC4F /* ingredients */ = {
+			isa = PBXGroup;
+			children = (
+				507F1B424C5E4AE5951755CB /* Source Files */,
+				BD2F2A16CEE649E8A85AB68E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/CMakeLists.txt */,
+			);
+			name = ingredients;
+			sourceTree = "<group>";
+		};
+		90D565C505124617B15CF32D = {
+			isa = PBXGroup;
+			children = (
+				CDC5C6A4E17A4AE8867345DD /* Sources */,
+				78FA5722D572403C9FC8E7FC /* Resources */,
+				534E34CAF8764FD1B5F15B55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A536C21F434545E090FD6590 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2154BE9AE3AA4C43B55F896D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/main.cpp */,
+				9100F498D1C74E35B95FD2FF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenealphatest.cpp */,
+				66889BAACE0D40E6ABDD3E8F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenemultitex.cpp */,
+				ABABF3E3802C4A97BA572C5A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenenormalmap.cpp */,
+				E56B8668B6E54F1C8F873BC3 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/sceneprojtex.cpp */,
+				83B217E4E769408B8D6A1463 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenereflectcube.cpp */,
+				E7C20DFFEA964DDA9D6D2D53 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenerefractcube.cpp */,
+				33618C2142874184921A6CA0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenerendertotex.cpp */,
+				85CE5F2D4BE34509837FE6D6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenesamplerobj.cpp */,
+				042DFC215A174279992819A8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenetexture.cpp */,
+				F935E8671D67453EBDE0E780 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/skybox.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		ADB8FBB319944F7886B2DE2B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6D9896D2E4EAA819466E1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/main.cpp */,
+				3B8E0C8995024AEDB502EC3C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenefire.cpp */,
+				1C14D630256743089B373BB5 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticles.cpp */,
+				B676644193284446A677AA0F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticlesfeedback.cpp */,
+				98A5EC055F4C4228893A3E74 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticlesinstanced.cpp */,
+				D8613FA539734C0D9ECF1D38 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenesmoke.cpp */,
+				00E48EEFC4F34E5493C7BC98 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenewave.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B0A5F564329548C3A2741B5D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6590899382AC4DF3AE783D36 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/main.cpp */,
+				22BEEE3E28624953B9AF5FBA /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic.cpp */,
+				F0C8001FEB364F1CB887FCD0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_attrib.cpp */,
+				82D1450A1D024F5F8A80F3B8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_debug.cpp */,
+				901009674CC84A08BE614BEF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_uniform.cpp */,
+				1D2C99B2A19C49208AAAFA28 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_uniformblock.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BB1C8E2A188E477890599791 /* chapter04 */ = {
+			isa = PBXGroup;
+			children = (
+				A536C21F434545E090FD6590 /* Source Files */,
+				A7A820053C0E4BE48AF9D344 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/CMakeLists.txt */,
+			);
+			name = chapter04;
+			sourceTree = "<group>";
+		};
+		BD58FD820A3E41389C98A4C7 /* chapter07 */ = {
+			isa = PBXGroup;
+			children = (
+				D055D7910C3E47AC98A101B8 /* Source Files */,
+				0A8088AE087645E7B775E05B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/CMakeLists.txt */,
+			);
+			name = chapter07;
+			sourceTree = "<group>";
+		};
+		C99D0C270E2E4807B3E375D0 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DEA5473EC7BF4346899324C1 /* CMake Rules */,
+				BBCC3E2CB54C4372979453DB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		CDC5C6A4E17A4AE8867345DD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C99D0C270E2E4807B3E375D0 /* ALL_BUILD */,
+				EB91BE26B96B4B34878FDB56 /* ZERO_CHECK */,
+				8E33E19739734E13BE00BC4F /* ingredients */,
+				078246154B3244FFB9D78072 /* chapter01 */,
+				795DD5A0AFB9495BB73DC6D4 /* chapter02 */,
+				646427D193BC4C508EEADC2F /* chapter03 */,
+				BB1C8E2A188E477890599791 /* chapter04 */,
+				3BDFB996970E4188ADDB3B9E /* chapter05 */,
+				D1E3FE500A3140289C102E4C /* chapter06 */,
+				BD58FD820A3E41389C98A4C7 /* chapter07 */,
+				1812C11AD19E422D8D684860 /* chapter08 */,
+				69116A4BA9D14733B20BB124 /* chapter09 */,
+				19A8BE76C7784479B41C6320 /* chapter10 */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		D055D7910C3E47AC98A101B8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B73AEF1980134A42B70C205D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/frustum.cpp */,
+				16B85475169946AA9E855338 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/main.cpp */,
+				2D8B4C4631FC43AFBE9DD9C6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneao.cpp */,
+				BC9E4D74E74F4CEE868D76BF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/scenejitter.cpp */,
+				093E3DD74731428DB814E295 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/scenepcf.cpp */,
+				F1BC24BC9ACA4A15AF99A768 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneshadowmap.cpp */,
+				459E804D1B474D45A11EFBBE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneshadowvolume.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D1E3FE500A3140289C102E4C /* chapter06 */ = {
+			isa = PBXGroup;
+			children = (
+				006BCD1E2CD940DD8DDDE765 /* Source Files */,
+				25C177BCE5574E4BAC93F6CC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/CMakeLists.txt */,
+			);
+			name = chapter06;
+			sourceTree = "<group>";
+		};
+		D1F49935091E49F5B259ABE5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				671874C7E8D64D9099FBA55F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/main.cpp */,
+				A492C43D4EB34D8C98A4ED8D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/noisetex.cpp */,
+				93DF7ECA98894B92BCDEBED1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenedecay.cpp */,
+				5BAB5D4A12854B7DA6B2CC96 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenenightvision.cpp */,
+				7B585B5A949244D7A3FB418D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenenoise.cpp */,
+				E7074C83CCDE49398F677352 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenepaint.cpp */,
+				0F46DE41C26A4DCBAFFEDD78 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenesky.cpp */,
+				3229110760F34B75BAB9FAE8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenewood.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DEA5473EC7BF4346899324C1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E37C2733C4D74A358AD832A0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				859F67E28CCF47E1841A8A7F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/main.cpp */,
+				7942949D393D4F24AEFFED95 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenedirectional.cpp */,
+				DA634A5FA81F45EF9726DC80 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenefog.cpp */,
+				2AE660BC67B3434687FDA02A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenemultilight.cpp */,
+				006F0B6C138C4728AB3B0250 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/sceneperfragment.cpp */,
+				E86D2EC4951F4077961BEAE6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenespot.cpp */,
+				34C5E360EFFB4FD8BEFE200C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenetoon.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EB91BE26B96B4B34878FDB56 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				26FC6CB658A94D52A67F39F6 /* CMake Rules */,
+				CFE77FFC061443BCAE1E614A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		F539B02ADA2E4F3596D4C177 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F65DA6124477426DBD12BFF5 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/main.cpp */,
+				53BCAA30BA9948F287B793D6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/sceneads.cpp */,
+				1E59C157192E4B189DBBD13B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenediffuse.cpp */,
+				E038D97F120F4B87A912515E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenediscard.cpp */,
+				10721DDBFC114FBC83E91CC4 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/sceneflat.cpp */,
+				CC3685EBA07B471B80AE3C38 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenesubroutine.cpp */,
+				EA0163029E4A46A8AF3E85FC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenetwoside.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23BC0630AB4C47CFA5E42344 /* chapter02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51B830A2E444A088ECE8079 /* Build configuration list for PBXNativeTarget "chapter02" */;
+			buildPhases = (
+				5017A139DDF64A39A5BC0131 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A812D9AAF814C53AB6BF421 /* PBXTargetDependency */,
+				074BF75185D54C74B72BB3E8 /* PBXTargetDependency */,
+			);
+			name = chapter02;
+			productName = chapter02;
+			productReference = C2FDCF90EB974BAA9D9582A3 /* chapter02 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3021DAACFCD04B46AC1263BE /* ingredients */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56658EEC0EED427484454DC1 /* Build configuration list for PBXNativeTarget "ingredients" */;
+			buildPhases = (
+				B7318CA3241046E79F6CFC65 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4604FE24923340A49B58CD71 /* PBXTargetDependency */,
+			);
+			name = ingredients;
+			productName = ingredients;
+			productReference = 5B9D4D4F772948E892B77A16 /* ingredients */;
+			productType = "com.apple.product-type.library.static";
+		};
+		57CA8600004A442CAD0A6C98 /* chapter10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F922678C19E4FEC9977D2A9 /* Build configuration list for PBXNativeTarget "chapter10" */;
+			buildPhases = (
+				197E276C429843079EE72645 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				873310CB836A4503A9A776F4 /* PBXTargetDependency */,
+				3353F8FCC250491D91A9E9A0 /* PBXTargetDependency */,
+			);
+			name = chapter10;
+			productName = chapter10;
+			productReference = 556D733325834AE7BAB5F879 /* chapter10 */;
+			productType = "com.apple.product-type.tool";
+		};
+		5AECC30A16A140E0A3CBBE55 /* chapter06 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7405604907DA4CC886FB0DC5 /* Build configuration list for PBXNativeTarget "chapter06" */;
+			buildPhases = (
+				DE6BB479FB694320AE8BF388 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E01A50375D4C4D13938E4119 /* PBXTargetDependency */,
+				A97AC161E49948A2999C9743 /* PBXTargetDependency */,
+			);
+			name = chapter06;
+			productName = chapter06;
+			productReference = B3E5AECE0EE6405CA956AF03 /* chapter06 */;
+			productType = "com.apple.product-type.tool";
+		};
+		5E62782326744709A9195079 /* chapter08 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FEE785B5BB43E591AD3402 /* Build configuration list for PBXNativeTarget "chapter08" */;
+			buildPhases = (
+				7DB36922DFBD4554B7D8C174 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7265CB3A6CD408E9D1F6A4C /* PBXTargetDependency */,
+				2DF3D9F27D9C4C35845DE5B4 /* PBXTargetDependency */,
+			);
+			name = chapter08;
+			productName = chapter08;
+			productReference = 569C8F17399D4642AA61BC63 /* chapter08 */;
+			productType = "com.apple.product-type.tool";
+		};
+		634A292751A74B49B176F963 /* chapter09 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261A72D11E914BD48DB26348 /* Build configuration list for PBXNativeTarget "chapter09" */;
+			buildPhases = (
+				CEDC570D5D8847E182F80B5A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00DFAB16A1A44DC282C6BCE3 /* PBXTargetDependency */,
+				AF8CE0A4D91649BFBD6230FF /* PBXTargetDependency */,
+			);
+			name = chapter09;
+			productName = chapter09;
+			productReference = 51FDF8677F5E4B5FBA4D78F0 /* chapter09 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6ABBDBB6DFEA4E71862264EA /* chapter05 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4745208785424430A20B7059 /* Build configuration list for PBXNativeTarget "chapter05" */;
+			buildPhases = (
+				CC2B86B55D1548C4B54D38C5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9010F475D97E47ABB2E78783 /* PBXTargetDependency */,
+				C3C41D75E1C744C68AFC7C70 /* PBXTargetDependency */,
+			);
+			name = chapter05;
+			productName = chapter05;
+			productReference = DE5A7BCCBCF548EC923D6743 /* chapter05 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B11BBFD25EEF4DCF8994DA3F /* chapter07 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4331A9E83C749B1A3DE5638 /* Build configuration list for PBXNativeTarget "chapter07" */;
+			buildPhases = (
+				2E0F0113F70440F6A6AAF4E5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12DADBF6876242EC90A8AC34 /* PBXTargetDependency */,
+				14D05AC5106F41DEBBC576B5 /* PBXTargetDependency */,
+			);
+			name = chapter07;
+			productName = chapter07;
+			productReference = 6FBBDC220CFE47EA8D73F5AB /* chapter07 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B4AFCA7B92664448B10BAF5C /* chapter01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4653F5D3BA5B472ABDF7B8FF /* Build configuration list for PBXNativeTarget "chapter01" */;
+			buildPhases = (
+				D70F14BA68B445C2A9B6A267 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				949CC4CFA106421194C1CB36 /* PBXTargetDependency */,
+				111E6AFF1066401AB0A03CD6 /* PBXTargetDependency */,
+			);
+			name = chapter01;
+			productName = chapter01;
+			productReference = 1CB1E50D8F6045AEA9874C40 /* chapter01 */;
+			productType = "com.apple.product-type.tool";
+		};
+		C54AC7D13B0741498F0E99B9 /* chapter04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1898DB58DB42A68178B9F9 /* Build configuration list for PBXNativeTarget "chapter04" */;
+			buildPhases = (
+				8B754C80B827423690D957C7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94020CB511774C45BD5D442B /* PBXTargetDependency */,
+				CD14436ABD614BC7B1736432 /* PBXTargetDependency */,
+			);
+			name = chapter04;
+			productName = chapter04;
+			productReference = 11549D145E044A36BB75457F /* chapter04 */;
+			productType = "com.apple.product-type.tool";
+		};
+		D92E88016B33428F82FB690C /* chapter03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9ABBAA18B84E10BD3E0A74 /* Build configuration list for PBXNativeTarget "chapter03" */;
+			buildPhases = (
+				7C9333E9B4F94993AAAF79DB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3020DEBF8A480D93A7B997 /* PBXTargetDependency */,
+				D015E0A037A74660A83E24A3 /* PBXTargetDependency */,
+			);
+			name = chapter03;
+			productName = chapter03;
+			productReference = 9D6139F3BE754157B2A81BDF /* chapter03 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E70D51C86BCC42B6B063B85F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0820;
+			};
+			buildConfigurationList = F8DC95BBCC1F4D5D88498B95 /* Build configuration list for PBXProject "GLSLCOOKBOOK" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				DD7D986BAA8E4479989FBE4F /* Debug */,
+				A07BA3ADD9274A749B9E5F98 /* Release */,
+				418259AB058746A8A3F82747 /* MinSizeRel */,
+				DA487E6A64AE4E8AB5657CA2 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 90D565C505124617B15CF32D;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				6E67C69EEBB0455D95B7EC0E /* ALL_BUILD */,
+				07DAF7CD485641358AAE4821 /* ZERO_CHECK */,
+				3021DAACFCD04B46AC1263BE /* ingredients */,
+				B4AFCA7B92664448B10BAF5C /* chapter01 */,
+				23BC0630AB4C47CFA5E42344 /* chapter02 */,
+				D92E88016B33428F82FB690C /* chapter03 */,
+				C54AC7D13B0741498F0E99B9 /* chapter04 */,
+				6ABBDBB6DFEA4E71862264EA /* chapter05 */,
+				5AECC30A16A140E0A3CBBE55 /* chapter06 */,
+				B11BBFD25EEF4DCF8994DA3F /* chapter07 */,
+				5E62782326744709A9195079 /* chapter08 */,
+				634A292751A74B49B176F963 /* chapter09 */,
+				57CA8600004A442CAD0A6C98 /* chapter10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A30A2A852CB4247B580ABF3 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode -f /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3CA8E2BDD5A64615A2B1DB82 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode -f /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3DB34E15236A4C049AFD421B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E7F30F9E54B442B88601343A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		197E276C429843079EE72645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64DDC90FA1A41EEB50EE21C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/main.cpp */,
+				E9B7D010F0AE4888BF919E83 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/scenecloth.cpp */,
+				BBC8641D02E6476A99670C0A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/sceneedge.cpp */,
+				D89C34D34C1D4BEAB86819D4 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/scenemandelbrot.cpp */,
+				B25A1348B67F41D7962B2702 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter10/sceneparticles.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0F0113F70440F6A6AAF4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04A614C449C4F3AA8DD9715 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/frustum.cpp */,
+				799D7649315844E597DCD271 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/main.cpp */,
+				5B5DB850A7AA46AEAA98ADB7 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneao.cpp */,
+				6783C9F9F92C4689898B8405 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/scenejitter.cpp */,
+				EFF54766BFBD41188786F606 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/scenepcf.cpp */,
+				D0680FAED5A14525BD287D94 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneshadowmap.cpp */,
+				FDECD83F7CC948B0A1773BDE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter07/sceneshadowvolume.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5017A139DDF64A39A5BC0131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8894B485ADDB45558E650CF6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/main.cpp */,
+				55075D07DF9443F4AF6DE66B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/sceneads.cpp */,
+				8CAAA487A33E46A8ABF7F830 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenediffuse.cpp */,
+				5A06D911DAC647288CE87028 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenediscard.cpp */,
+				D3A66AA8D1C94B9EAA01F78F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/sceneflat.cpp */,
+				8342241938214110A3DBD92E /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenesubroutine.cpp */,
+				D5AAF37F0F5E4133AB2C66B1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter02/scenetwoside.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9333E9B4F94993AAAF79DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6E4FF4FA7545969D54967A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/main.cpp */,
+				879CE203089E4D94894DA7C1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenedirectional.cpp */,
+				3BBF4BCCD5C048D88E6E2E5B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenefog.cpp */,
+				79EC45F46F444956AD366DB3 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenemultilight.cpp */,
+				06EAADB1831B48CCBAF63900 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/sceneperfragment.cpp */,
+				175BA75465EF4E69940EA8AC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenespot.cpp */,
+				B4693E6B8556410FA539E136 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter03/scenetoon.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB36922DFBD4554B7D8C174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7AFC06199848A384740AF6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/main.cpp */,
+				96F6B1AF120A47A4B1A2FFEF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/noisetex.cpp */,
+				32399DD698E84FEDADA46FB8 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenedecay.cpp */,
+				0F01AAAAB4494362B8318786 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenenightvision.cpp */,
+				B20DE93E16AA4E088919C9F2 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenenoise.cpp */,
+				5C890EC57F264E4DA63E993D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenepaint.cpp */,
+				856700F70F9D46E6A6B2CB53 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenesky.cpp */,
+				3ADA410D4378430B96B59C96 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter08/scenewood.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B754C80B827423690D957C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C49A6DE10954B6EB30E962B /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/main.cpp */,
+				C37E7478120C49C9923327FB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenealphatest.cpp */,
+				91466191A3B14D50923AB004 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenemultitex.cpp */,
+				FBE9A8DEE1BA4D6B91F7C9F9 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenenormalmap.cpp */,
+				10C8B844712A4885A5010240 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/sceneprojtex.cpp */,
+				14B29804E79946D0BF870723 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenereflectcube.cpp */,
+				80043D49CC044BE682279C28 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenerefractcube.cpp */,
+				450C1383092746F1910CB05D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenerendertotex.cpp */,
+				41FC5F6EB00841259B522C64 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenesamplerobj.cpp */,
+				7EFE9ED20ADD472C851ACC32 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/scenetexture.cpp */,
+				B4BDD9AEBC504A25829675A2 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter04/skybox.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7318CA3241046E79F6CFC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDFC3D0323546A38D8FCC53 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/bmpreader.cpp */,
+				1AC0B20A03AC40F4A265C93A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/drawable.cpp */,
+				FF162F34D6A84417A0C39AD0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/gl_core_4_4.c */,
+				DDB4658D988C4056AD629C83 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/glslprogram.cpp */,
+				F32486B16804499B8670C025 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/glutils.cpp */,
+				22D8D6B0FF86441CB51AC642 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/tgaio.cpp */,
+				044C9DFD4EA34741B112210A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbocube.cpp */,
+				8A0CEA4063B545CE9053C2EE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbomesh.cpp */,
+				99FBC2565A9E4E53AF8B4C48 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbomeshadj.cpp */,
+				FB8A7B46E9BE4472BCBD9666 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboplane.cpp */,
+				685EA3756126448E951AB2FF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbosphere.cpp */,
+				3CF9C574BE2443EF9CAB7DDF /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboteapot.cpp */,
+				7073DA0C99944E5DA7C5DE7A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vboteapotpatch.cpp */,
+				A000441FA18944A4A86DDB04 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients/vbotorus.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B86B55D1548C4B54D38C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B0FDD3A73842A5A31966E3 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/main.cpp */,
+				6D6CE9F82C384DC2A749B675 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneblur.cpp */,
+				F3E81DC79AAD46348FC088AB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenedeferred.cpp */,
+				D3671C35CC7D4EB39A373926 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneedge.cpp */,
+				CB941DB6B9734FB2A9C2C16C /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenegamma.cpp */,
+				FA8CE981ADFB42D78E797FDD /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenehdrbloom.cpp */,
+				E7EE6C4EDA0F42908844BBD1 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenemsaa.cpp */,
+				3A65904951C14CE78866A5DC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/sceneoit.cpp */,
+				A26AE42E476C41F7ADEFC514 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter05/scenetonemap.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDC570D5D8847E182F80B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C567759B28E4CDCB17A73F3 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/main.cpp */,
+				4AE3E46BE5E44B0894E16899 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenefire.cpp */,
+				E7E9B94B4A784F9FB0B1ABEC /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticles.cpp */,
+				19E379B6D1BD492FA88EEDFE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticlesfeedback.cpp */,
+				A1ACC8CBD4134895B03FDF36 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/sceneparticlesinstanced.cpp */,
+				83184A8B9FB143C8AFD0CE8D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenesmoke.cpp */,
+				562D6CCCF1E94C99940C4A5D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter09/scenewave.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70F14BA68B445C2A9B6A267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E99E250A824C878CE75F85 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/main.cpp */,
+				BF4D7106A49C433EB5716B8A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic.cpp */,
+				CAB1EFCB8DC54E15AFBE7A92 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_attrib.cpp */,
+				87B58EB6E97847B7A71DE211 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_debug.cpp */,
+				62F5A337622A4BFF9B59AB70 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_uniform.cpp */,
+				4F88E3F56B8641B987BBA4F6 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter01/scenebasic_uniformblock.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6BB479FB694320AE8BF388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6878A578CA45BD9904DB2D /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/main.cpp */,
+				22AC3EDFB37C46759DD9D651 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenebezcurve.cpp */,
+				FC748810636C4F909CB743FB /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenepointsprite.cpp */,
+				71600B65AD854FCD90C4BC5A /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenequadtess.cpp */,
+				6A5845338A3843D9ACE46982 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/sceneshadewire.cpp */,
+				65CADD1159F14ED1B8117BFE /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenesilhouette.cpp */,
+				BF655FB9E1D942DA8F5B8CB0 /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenetessteapot.cpp */,
+				0B740A839EF14C4BB725393F /* /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/chapter06/scenetessteapotdepth.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00DFAB16A1A44DC282C6BCE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3021DAACFCD04B46AC1263BE /* ingredients */;
+			targetProxy = 6415C63148654CE28CF13123 /* PBXContainerItemProxy */;
+		};
+		074BF75185D54C74B72BB3E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DAF7CD485641358AAE4821 /* ZERO_CHECK */;
+			targetProxy = FFFE41271785432BB1540180 /* PBXContainerItemProxy */;
+		};
+		082EEA148E4D4ACE95913979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E62782326744709A9195079 /* chapter08 */;
+			targetProxy = 8C3821BB5C2641858D48B7AB /* PBXContainerItemProxy */;
+		};
+		111E6AFF1066401AB0A03CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DAF7CD485641358AAE4821 /* ZERO_CHECK */;
+			targetProxy = 5103CF6E63874CFA8ABCDD78 /* PBXContainerItemProxy */;
+		};
+		12DADBF6876242EC90A8AC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3021DAACFCD04B46AC1263BE /* ingredients */;
+			targetProxy = 3A0E3D1CA78549F58C62197C /* PBXContainerItemProxy */;
+		};
+		13A379F2BD5E450FA6A7131A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23BC0630AB4C47CFA5E42344 /* chapter02 */;
+			targetProxy = F6E1DD964AE9428690B333F1 /* PBXContainerItemProxy */;
+		};
+		14D05AC5106F41DEBBC576B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DAF7CD485641358AAE4821 /* ZERO_CHECK */;
+			targetProxy = 477A426562E84B45831A8774 /* PBXContainerItemProxy */;
+		};
+		2DF3D9F27D9C4C35845DE5B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DAF7CD485641358AAE4821 /* ZERO_CHECK */;
+			targetProxy = ACE554FDBD1B4D30B6C7CE03 /* PBXContainerItemProxy */;
+		};
+		3353F8FCC250491D91A9E9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DAF7CD485641358AAE4821 /* ZERO_CHECK */;
+			targetProxy = E7E35302AD2B4702AF59CF90 /* PBXContainerItemProxy */;
+		};
+		4604FE24923340A49B58CD71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DAF7CD485641358AAE4821 /* ZERO_CHECK */;
+			targetProxy = 0F009C5A4E1343EB8C8DC708 /* PBXContainerItemProxy */;
+		};
+		4618A7701584486FA8E5C852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DAF7CD485641358AAE4821 /* ZERO_CHECK */;
+			targetProxy = D96167370CF547C485269E39 /* PBXContainerItemProxy */;
+		};
+		4A3020DEBF8A480D93A7B997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3021DAACFCD04B46AC1263BE /* ingredients */;
+			targetProxy = A43AEA16434F4FA2941ED7F1 /* PBXContainerItemProxy */;
+		};
+		4A812D9AAF814C53AB6BF421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3021DAACFCD04B46AC1263BE /* ingredients */;
+			targetProxy = 04812BD270F04DA9A86B7884 /* PBXContainerItemProxy */;
+		};
+		4C6434DE109E47EDB42B3619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABBDBB6DFEA4E71862264EA /* chapter05 */;
+			targetProxy = 8C964978F2D74573B1EFC299 /* PBXContainerItemProxy */;
+		};
+		62959A284BD14C129A4DC3AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C54AC7D13B0741498F0E99B9 /* chapter04 */;
+			targetProxy = 8A47A200409B4776B430A123 /* PBXContainerItemProxy */;
+		};
+		8572BB5D492942EBA2A161EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57CA8600004A442CAD0A6C98 /* chapter10 */;
+			targetProxy = 2C50FC89850243AA9BBF8D5B /* PBXContainerItemProxy */;
+		};
+		873310CB836A4503A9A776F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3021DAACFCD04B46AC1263BE /* ingredients */;
+			targetProxy = 97385F6F70CA48A8AFBC8C2D /* PBXContainerItemProxy */;
+		};
+		9010F475D97E47ABB2E78783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3021DAACFCD04B46AC1263BE /* ingredients */;
+			targetProxy = 34595B52FE0045CC8A384BAE /* PBXContainerItemProxy */;
+		};
+		94020CB511774C45BD5D442B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3021DAACFCD04B46AC1263BE /* ingredients */;
+			targetProxy = 06D082E52EFB4D0ABC3F9440 /* PBXContainerItemProxy */;
+		};
+		949CC4CFA106421194C1CB36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3021DAACFCD04B46AC1263BE /* ingredients */;
+			targetProxy = 1F28BBE9AEAA41B89E4BC584 /* PBXContainerItemProxy */;
+		};
+		A6E43A08611D471085828F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4AFCA7B92664448B10BAF5C /* chapter01 */;
+			targetProxy = 513C778AE5BD4C12997C2003 /* PBXContainerItemProxy */;
+		};
+		A8B1BE4755DC4E05B65EA585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 634A292751A74B49B176F963 /* chapter09 */;
+			targetProxy = B31A31AA07B249E29CC34CEB /* PBXContainerItemProxy */;
+		};
+		A97AC161E49948A2999C9743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DAF7CD485641358AAE4821 /* ZERO_CHECK */;
+			targetProxy = F0054240948C4A719527A21B /* PBXContainerItemProxy */;
+		};
+		AF8CE0A4D91649BFBD6230FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DAF7CD485641358AAE4821 /* ZERO_CHECK */;
+			targetProxy = FCEF85EDE9BF4E959026910B /* PBXContainerItemProxy */;
+		};
+		B5069A1250AF467CB9676EA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D92E88016B33428F82FB690C /* chapter03 */;
+			targetProxy = D35C88B53835420493285241 /* PBXContainerItemProxy */;
+		};
+		BBAFB5F37722486B9D86B424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11BBFD25EEF4DCF8994DA3F /* chapter07 */;
+			targetProxy = 53504293CFD8499B910FD8B7 /* PBXContainerItemProxy */;
+		};
+		C3C41D75E1C744C68AFC7C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DAF7CD485641358AAE4821 /* ZERO_CHECK */;
+			targetProxy = DBB438F5CC894A9CBB766789 /* PBXContainerItemProxy */;
+		};
+		C7265CB3A6CD408E9D1F6A4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3021DAACFCD04B46AC1263BE /* ingredients */;
+			targetProxy = C8965AA8325D4647BFBB2D5D /* PBXContainerItemProxy */;
+		};
+		CD14436ABD614BC7B1736432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DAF7CD485641358AAE4821 /* ZERO_CHECK */;
+			targetProxy = 800FD94C7DA24944AF95D4FC /* PBXContainerItemProxy */;
+		};
+		D015E0A037A74660A83E24A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DAF7CD485641358AAE4821 /* ZERO_CHECK */;
+			targetProxy = 2792722722034477B0D8238C /* PBXContainerItemProxy */;
+		};
+		E01A50375D4C4D13938E4119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3021DAACFCD04B46AC1263BE /* ingredients */;
+			targetProxy = 94F24410122C4C03A2A35AC5 /* PBXContainerItemProxy */;
+		};
+		E92952F4B29541BFADB656D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AECC30A16A140E0A3CBBE55 /* chapter06 */;
+			targetProxy = E94EE967A76046B28A026249 /* PBXContainerItemProxy */;
+		};
+		FCE74312626F4DACB6A1EC94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3021DAACFCD04B46AC1263BE /* ingredients */;
+			targetProxy = F8A63A3722104515B279B8C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0577292E5C054D85A39989B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Debug/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter06;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter06;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		063E0476F80D40D6A3252C7A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/RelWithDebInfo/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter07;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter07;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		07EBCAAB4C5E474590C596C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Debug/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter03;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter03;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		22B8A6B297E94D7BBCA65C48 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/RelWithDebInfo/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter02;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter02;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		28F4F18C25E94E78AB56E374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Debug/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter05;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter05;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		293BBE41B1C04936A13B0696 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ingredients;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2CC93FE8F021472E8F17B5E5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/RelWithDebInfo/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter04;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter04;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2FBAC986943B47C797EBB019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Release/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter01;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter01;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		34A36E0C37AC4EA280912FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Debug/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter09;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter09;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		362B8D0357D24F96836B9508 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/MinSizeRel/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter09;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter09;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		389D6506A01D4070B05515D0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/MinSizeRel/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter04;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter04;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		38FA582B43774A7AB99EFDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3930F75910A542528F4CD41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		44242009F2B14B1CBC1DF284 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/MinSizeRel/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter03;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter03;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		45043DE52D1442149C45A567 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/RelWithDebInfo/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter03;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter03;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4728DFD788964079BE79F823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Debug/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter01;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter01;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4B21F20ED68847A6BCF9B3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Release/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter10;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter10;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		513C626E116C4C3089076737 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		5EE653CFD10F4BE9AC5B291F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/RelWithDebInfo/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter05;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter05;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5F8EBB78EC434E1C9CD57420 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/RelWithDebInfo/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter01;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter01;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6179C3E97CC44F94A18E1F59 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/RelWithDebInfo/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter10;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter10;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		63DBB0C48ADD4A13B6D8B6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Release/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter09;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter09;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		671A1F4DFDD14615A2B08376 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/MinSizeRel/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter02;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter02;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		696F7938F74641BAA197EA1D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/MinSizeRel/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter06;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter06;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		719B01E81CD14AB08C08A862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		76D23AEEBFFE46D188913848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/build;
+			};
+			name = Release;
+		};
+		789897088DB74F7095BF7A70 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/RelWithDebInfo/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter06;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter06;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		817062F550804AF580682B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Debug/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter07;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter07;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8898CE792DCD481CB5A65B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Debug/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter08;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter08;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8E2F0A9D53EC403CB27319BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Release/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter07;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter07;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		97F942BABD844608B7FB3516 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/MinSizeRel/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter01;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter01;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9F3EA382045141A1B003E913 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ingredients;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A18F9F0C429847578341AC1E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/MinSizeRel/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter08;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter08;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A4AE3D21BA3641789E70F4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Release/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter08;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter08;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A93783C2B0D343C69A6F2BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Release/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter02;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter02;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A94B27A83D784B448024BDB0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/MinSizeRel/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter07;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter07;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A96C40F3BBC04EBA845A2B17 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/RelWithDebInfo/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter09;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter09;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		ACBD631FC7944EBA80558F9A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B3C58C8547A54694A2477097 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		B6BA9FB7FEEA4C55B611DBFB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/MinSizeRel/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter10;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter10;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B94DAD727E034656B942E38F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/RelWithDebInfo/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter08;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter08;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B9C1EC221E1C48E0AE31ABF2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BB7C9C486A6D418B99354E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Release/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter05;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter05;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BBB87D4D320545128C30D7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Debug/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter04;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter04;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BD0A486091E048469EFD4BCA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/MinSizeRel/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter05;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter05;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C4C3A89959E347858243648C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CDD8C63CA26C4795A06C9167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Release/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter04;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter04;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DA5DD4A159224A7EB8B14D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Release/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter06;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter06;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DBA01CA8CF5E49E9A0A11324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Debug/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter02;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter02;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DBED413235AA4E88A57C1C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ingredients;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DEA5ADB08AA54524A8EE487D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EAE3D4C48F734FC191CF0BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "     -Wall";
+				OTHER_CPLUSPLUSFLAGS = "     -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ingredients;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EB55D521811748E2B907EEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/build;
+			};
+			name = Debug;
+		};
+		F2A0CBDFC9DC4CA3A5FDE5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F373E4508E434BABA678394C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Debug/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter10;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter10;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F9B6A3F067DB42E6863C2DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/ingredients,/opt/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/ingredients/Release/libingredients.a /opt/local/lib/libglfw.dylib -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = chapter03;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/GeorgeQuentin/Dev/OpenGL/glslcookbook/xcode/chapter03;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F922678C19E4FEC9977D2A9 /* Build configuration list for PBXNativeTarget "chapter10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F373E4508E434BABA678394C /* Debug */,
+				4B21F20ED68847A6BCF9B3FD /* Release */,
+				B6BA9FB7FEEA4C55B611DBFB /* MinSizeRel */,
+				6179C3E97CC44F94A18E1F59 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		261A72D11E914BD48DB26348 /* Build configuration list for PBXNativeTarget "chapter09" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A36E0C37AC4EA280912FCD /* Debug */,
+				63DBB0C48ADD4A13B6D8B6DE /* Release */,
+				362B8D0357D24F96836B9508 /* MinSizeRel */,
+				A96C40F3BBC04EBA845A2B17 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		37FEE785B5BB43E591AD3402 /* Build configuration list for PBXNativeTarget "chapter08" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8898CE792DCD481CB5A65B3F /* Debug */,
+				A4AE3D21BA3641789E70F4CE /* Release */,
+				A18F9F0C429847578341AC1E /* MinSizeRel */,
+				B94DAD727E034656B942E38F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4653F5D3BA5B472ABDF7B8FF /* Build configuration list for PBXNativeTarget "chapter01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4728DFD788964079BE79F823 /* Debug */,
+				2FBAC986943B47C797EBB019 /* Release */,
+				97F942BABD844608B7FB3516 /* MinSizeRel */,
+				5F8EBB78EC434E1C9CD57420 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4745208785424430A20B7059 /* Build configuration list for PBXNativeTarget "chapter05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F4F18C25E94E78AB56E374 /* Debug */,
+				BB7C9C486A6D418B99354E1E /* Release */,
+				BD0A486091E048469EFD4BCA /* MinSizeRel */,
+				5EE653CFD10F4BE9AC5B291F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4B1898DB58DB42A68178B9F9 /* Build configuration list for PBXNativeTarget "chapter04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB87D4D320545128C30D7B5 /* Debug */,
+				CDD8C63CA26C4795A06C9167 /* Release */,
+				389D6506A01D4070B05515D0 /* MinSizeRel */,
+				2CC93FE8F021472E8F17B5E5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		56658EEC0EED427484454DC1 /* Build configuration list for PBXNativeTarget "ingredients" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE3D4C48F734FC191CF0BFD /* Debug */,
+				DBED413235AA4E88A57C1C7D /* Release */,
+				293BBE41B1C04936A13B0696 /* MinSizeRel */,
+				9F3EA382045141A1B003E913 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6C9ABBAA18B84E10BD3E0A74 /* Build configuration list for PBXNativeTarget "chapter03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EBCAAB4C5E474590C596C4 /* Debug */,
+				F9B6A3F067DB42E6863C2DD5 /* Release */,
+				44242009F2B14B1CBC1DF284 /* MinSizeRel */,
+				45043DE52D1442149C45A567 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7405604907DA4CC886FB0DC5 /* Build configuration list for PBXNativeTarget "chapter06" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0577292E5C054D85A39989B5 /* Debug */,
+				DA5DD4A159224A7EB8B14D61 /* Release */,
+				696F7938F74641BAA197EA1D /* MinSizeRel */,
+				789897088DB74F7095BF7A70 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C4331A9E83C749B1A3DE5638 /* Build configuration list for PBXNativeTarget "chapter07" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817062F550804AF580682B40 /* Debug */,
+				8E2F0A9D53EC403CB27319BC /* Release */,
+				A94B27A83D784B448024BDB0 /* MinSizeRel */,
+				063E0476F80D40D6A3252C7A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D51B830A2E444A088ECE8079 /* Build configuration list for PBXNativeTarget "chapter02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA01CA8CF5E49E9A0A11324 /* Debug */,
+				A93783C2B0D343C69A6F2BBC /* Release */,
+				671A1F4DFDD14615A2B08376 /* MinSizeRel */,
+				22B8A6B297E94D7BBCA65C48 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E74BBC4DC97A40CA82447429 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3930F75910A542528F4CD41C /* Debug */,
+				719B01E81CD14AB08C08A862 /* Release */,
+				C4C3A89959E347858243648C /* MinSizeRel */,
+				DEA5ADB08AA54524A8EE487D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F19AEA3C558B43CBA8B9BC4C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A0CBDFC9DC4CA3A5FDE5C9 /* Debug */,
+				38FA582B43774A7AB99EFDFA /* Release */,
+				B9C1EC221E1C48E0AE31ABF2 /* MinSizeRel */,
+				ACBD631FC7944EBA80558F9A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F8DC95BBCC1F4D5D88498B95 /* Build configuration list for PBXProject "GLSLCOOKBOOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB55D521811748E2B907EEBA /* Debug */,
+				76D23AEEBFFE46D188913848 /* Release */,
+				513C626E116C4C3089076737 /* MinSizeRel */,
+				B3C58C8547A54694A2477097 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E70D51C86BCC42B6B063B85F /* Project object */;
+}

@@ -96,6 +96,7 @@ int main(int argc, char *argv[])
 	glfwTerminate();
 	// Exit program
 	exit( EXIT_SUCCESS );
+    
 }
 
 string parseCLArgs(int argc, char ** argv) {
